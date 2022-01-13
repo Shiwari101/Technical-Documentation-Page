@@ -3,3 +3,49 @@ body{
     margin: 0;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
+
+.main-container{
+    display: grid;
+    grid-template-columns: 1fr 5fr;
+}
+
+#main-doc{
+    margin-left: 10px;
+}
+
+#navbar{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    margin-left: 2px;
+    text-align: center;
+}
+
+#navbar header{
+    border-bottom: 1px solid black;
+}
+
+.nav-link{
+    display: flex;
+    justify-content: left;
+    margin-left: 10px;
+    font-size: large;
+    text-decoration: none;
+    color: black;
+
+}
+
+.nav-link:hover{
+    color: crimson;
+}
+
+@media (max-width: 1200px) {
+    .nav-link{
+        display: flex;
+        justify-content: center;
+        margin-left: 0px;
+        font-size: medium;
+        text-decoration: none;
+        color: black;
+    }    
+}
