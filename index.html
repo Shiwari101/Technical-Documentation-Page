@@ -63,6 +63,11 @@
                 <header>
                     <h1>Introduction</h1>
                 </header>
+                <p>This tutorial introduces the reader informally to the basic concepts and features of the Python language and system.
+                    It
+                    helps to have a Python interpreter handy for hands-on experience, but all examples are self-contained, so the
+                    tutorial
+                    can be read off-line as well.</p>
                 <ul>
                     <li>
                         something you need to know. This Documentation Page doesn't require any programming experiece or programming background
@@ -71,8 +76,11 @@
                         This little tutorial assumes you are a total begginer
                     </li>
                 </ul>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis architecto, a facere inventore consequuntur mollitia sunt earum molestias quod ipsam ducimus sed temporibus veniam delectus eius qui incidunt ullam est.</p>
-                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Similique eos qui praesentium nesciunt doloribus delectus necessitatibus ipsa et repellat omnis pariatur, quidem assumenda suscipit incidunt impedit nemo laudantium error? Id?</p>
+                <p>Python is an easy to learn, powerful programming language. It has efficient high-level data structures and a simple but
+                effective approach to object-oriented programming. Python’s elegant syntax and dynamic typing, together with its
+                interpreted nature, make it an ideal language for scripting and rapid application development in many areas on most
+                platforms.</p>
+                <p>The Python interpreter is easily extended with new functions and data types implemented in C or C++ (or other languages callable from C). Python is also suitable as an extension language for customizable applications.</p>
             </section>
             <section class="main-section" id="Getting_Started">
                 <header>
@@ -88,83 +96,144 @@
                     </li>
                     <li>A Desktop or a Laptop computer</li>
                 </ul>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Obcaecati voluptatibus voluptas, amet placeat, quibusdam ullam cupiditate fugit maiores doloribus minus maxime eius porro nostrum magni similique facilis magnam voluptates explicabo?</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Laborum qui explicabo, iste praesentium sit nisi laboriosam odio laudantium eius ea accusantium atque consectetur est perferendis et, corporis rerum soluta eligendi!</p>
+                <p>The Python interpreter and the extensive standard library are freely available in source or binary form for all major
+                platforms from the Python web site, <a href="https://www.python.org/">https://www.python.org/</a>, and may be freely distributed. The same site also contains
+                distributions of and pointers to many free third party Python modules, programs and tools, and additional documentation.</p>
+                <p>This tutorial does not attempt to be comprehensive and cover every single feature, or even every commonly used feature.
+                Instead, it introduces many of Python’s most noteworthy features, and will give you a good idea of the language’s flavor
+                and style.</p>
             </section>
             <section class="main-section" id="Python_or_JavaScript">
                 <header>
                     <h1>Python or JavaScript</h1>
                 </header>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Animi expedita, placeat debitis minus beatae fugit consectetur rerum eveniet, nobis ipsum neque quasi, dolorum mollitia voluptates facilis nostrum. Nam, corporis debitis.</p>
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Vel officiis illum ut ad iste nulla laboriosam itaque necessitatibus, autem quaerat at illo nobis nisi dolor corporis deleniti! Cumque, vitae libero.</p>
+                <p>Python is an interpreted high-level programming language with dynamic semantics and object-oriented programming designed
+                to be easy to read and implement. It is a scripting language like Perl/ruby and used for creating web applications too.
+                </p>
+                <p>Java-Script is an object-oriented programming language that allows you to create dynamic web pages and got standardized
+                in ECMAScript language specification. Java-Script supports different programming paradigm as object-oriented,
+                functional, and imperative programming but not procedural programming.</p>
             </section>
             <section class="main-section" id="Hello_World">
                 <header>
                     <h1>Hello World</h1>
                 </header>
                 <!-- Falar sobre a maldião do hello world -->
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. At explicabo aspernatur, impedit incidunt unde iste dolorem voluptatibus ab dolor eius corrupti odio architecto, distinctio in ducimus quod magnam magni quas.</p>
+                <p>The hello world program is the most important program you ever write and this goes to any programming language or technology. The Hello World curse says that if your first program on your new programming language is not Hello World you're are going to be cursed by not beig able to learn or having a lot of difficulty picking it up. If it's real or not, let's just make sure we get a good start at the language ;)</p>
                 <code>print("Hello World")</code>
                 <!-- Explicar oque cada coisa faz -->
-                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. In iure modi voluptates assumenda incidunt eum fuga inventore eius facere eos, aliquam harum quod doloribus, magni porro nisi obcaecati atque quasi.</p>
+                <p>This is how you do your first hello world in Python. Congratulations! You're not cursed forever. Let's explain everything in this line because a lot is happening.</p>
+                <p>First, everything in Python is a object, this tutorial will not get into Objects and and OOP but just keep this in mind for the future. First the print functional <code>print()</code> is called and takes the parameter in this case <code>"Hello World"</code> That is a string of Characters and printing into the console. May seem simple but alot is happening under the hood</p>
             </section>
             <section class="main-section" id="Variables">
                 <header>
                     <h1>Variables</h1>
                 </header>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae voluptatibus enim, aut dolorum officia quo cumque quisquam maxime facere adipisci praesentium unde saepe, in libero earum ipsa quis iusto reprehenderit.</p>
+                <p>Variables can be think as a parking lot. you can store data in variables, or Park cars in the parking lot. Variables are a crucial part in programming and one of the most important things you have to learn. Look at the below example:</p>
                 <code>x = 10</code> <br>
                 <code>y = 20</code> <br>
                 <code>z = x + y</code> <br>
                 <code>print(z)</code> <br>
                 <code>output: 30</code>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quo exercitationem suscipit similique quas explicabo facilis veniam. Libero et corrupti ratione temporibus qui iure ex dolor ipsa, facere maiores officiis explicabo!</p>
+                <p>x recieves the value of 10 so if we would <code>print(x)</code> The console would print 10. Variables hold information and assign to a name like x or any name you want. You can also see that we can do math with the variables values and assign the result of that variable addition to another variable.
+                </p>
+                <p>
+                    In python you can store all of the <a href="#Data_Types">Data Types</a> in a variable <br>
+                    <code>my_name = "Your name here"</code><br>
+                    <code>my_number = 10</code> <br>
+                    <code>thuthy = True</code> <br>
+                    <code>my_gpa = 2.9</code> <br>
+                    <code>my_list = [10, 12, 14]</code>
+                </p>
             </section>
             <section class="main-section" id="Numbers">
                 <header>
                     <h1>Numbers</h1>
                 </header>
                 <!-- Explicar como matematica funciona em python e floats e ints -->
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quae maiores doloremque earum rerum corrupti tempore molestias dolorem? Odio maxime cum molestias eius vel mollitia minima? Dolorem libero architecto dolores et.</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat iste, amet quo similique quos exercitationem laboriosam voluptate cupiditate iure? Voluptatum odit ullam minima quis voluptas nam doloremque eius nemo culpa!</p>
+                <p>There's 2 types of numbers. Integers numbers, and floats numbers. In Python, integers are zero, positive or negative whole numbers without a fractional part and having unlimited
+                precision, e.g. 0, 100, -10. The followings are valid integer literals in Python.</p>
+                <p><code>12 + 12.5</code> <br>
+                <code>>>>24.5</code><br>
+                <code>12 + 12</code><br>
+                <code>>>>24</code>
+            </p>
+
             </section>
             <section class="main-section" id="Data_Types">
                 <header>
                     <h1>Data Types</h1>
                 </header>
                 <!-- aprodundar nos floats e ints e falar de strings booleans e outros -->
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Amet consectetur dolor impedit earum, facilis minus delectus tenetur officia debitis consequuntur fuga eos nobis reprehenderit fugit ipsum veritatis ducimus aspernatur vero.</p>
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo vitae aliquam iusto ducimus fuga fugit! Non, debitis numquam, iure unde pariatur commodi cum, excepturi obcaecati assumenda itaque inventore eius at.</p>
+                <p>The main data types that you will use the most are <code>Strings int float bool List Tuple Dictionary Sets</code></p>
+                <h4>Strings</h4>
+                <p><code>strings</code> or <code>str</code> Strings in python are surrounded by either single quotation marks, or double quotation marks.</p>
+                <h4>ints</h4>
+                <p>Ints as said before are a integer number. such  <br>
+                <code>0 <br> 1 <br> 100</code></p>
+                <h4>Floats</h3>
+                <p>Floats are the floating numbers, they are decimal numbers examples:</p>
+                <code>12.9 <br> 1.0 <br> 0.72727</code>
+                <h4>Bools</h4>
+                <p>bools or booleans values are pretty simple, They represent True or False, 0 or 1 some examples that evaluate to true:</p>
+                <code>True <br> False <br> ""</code> <br> The empty string evaluate to <code>False</code> at the other side a string with one space <code>" "</code> evaluates to True
+                <code></code>
             </section>
             <section class="main-section" id="Control_Flow">
                 <header>
                     <h1>Control Flow</h1>
                 </header>
                 <!-- falar sobre if and else e elif -->
-                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aperiam praesentium odio sapiente nihil minima? Consequuntur laudantium, voluptatem sapiente repellat rem asperiores hic voluptas, veniam minus temporibus error eum? Dicta, totam!</p>
+                <p>The control flow programns are a pretty simple but important to any programming language. <code>if else elif</code> are the keywords that you will be using look at the example below</p>
                 <!-- exemplo -->
-                <code></code>
+                <code>
+                    my_boolean = True <br>
+                    if my_boolean == True: <br>
+                    <p>....    print("Hello World")</p>
+                    else: print("Bye world") <br>
+                    output: >>> Hello World
+                    
+                    
+                </code>
                 <!-- explicar o elif melhor -->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum porro ullam ducimus qui iste consequatur fugiat, assumenda, maxime dolores saepe perferendis accusantium, nisi nesciunt. Debitis repudiandae magni quisquam est dolor.</p>
+                <p>the variable evaluates to the boolean True, so it reads like english, if the variable is equal to true print hello world to the console.</p>
             </section>
             <section class="main-section" id="For_and_While_Loops">
                 <header>
                     <h1>For and While Loops</h1>
                 </header>
+                <h4>For loops</h4>
                 <!-- Intoruzir ao for loop -->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, fuga blanditiis similique error eligendi natus consequuntur aliquam, commodi porro ipsam esse beatae totam nisi, delectus a vero repellendus nemo culpa?</p>
+                <p>For loops make a action the number of times they iterate over data.</p>
                 <!-- exemplo for loop -->
-                <code></code>
+                <code>
+                    
+                    for x in range(10):
+                        print(x) <br>
+                    output >>> <br> 0 
+                    <br>1
+                    <br>2
+                    <br>3
+                    <br>4
+                    <br>5
+                    <br>6
+                    <br>7
+                    <br>8
+                    <br>9
+                </code>
+                <p><code>range(100)</code> is an iterable, a list of numbers with 10 numbers, sarting from 0 till 9, the for loop gives us the ablity to create the variable x and keep track of the iterated data inm this example, it's like x is = 0 at the first interation and it gets printed, the next interation is x = 1 it and it prints out 1 and so on and so on till the iterable end. </p>
                 <!-- introuzir while loop -->
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit esse, asperiores voluptatum aperiam necessitatibus quis repellat amet repudiandae officiis quam aspernatur nostrum incidunt, consequatur expedita sit debitis dolor, nobis tempore!</p>
+                <h4>While loops<h4>
                 <!-- exemplo de while loop -->
+                <p>while loops will continue to make an action till the condition set is evaluate to false</p> <br>
+                <code>my_value = True <br> while my_value == True: print("HELLO WHILE LOOP") <br> output >>> <img src="https://cdn.discordapp.com/attachments/855607810736783390/931345958300708934/unknown.png" alt=""></code>
             </section>
             <section class="main-section" id="Official_Documentation">
                 <header>
                     <h1>Official Documentation</h1>
                 </header>
                 <!-- colocar link da documenraão oficial -->
-                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Pariatur rem eos voluptas rerum at quidem perferendis laboriosam, non eaque iure fugiat nobis tenetur nulla id voluptatum reprehenderit ex quas nesciunt?</p>
+                <p>This was a small Introduction to python, But i recomend you read the Official <a href="https://docs.python.org/3/">Python documentation</a> so you can have a better understanding of the language. Thanks for reading ☆*: .｡. o(≧▽≦)o .｡.:*☆</p>
             </section>
         </main>
     </div>
